@@ -1,0 +1,101 @@
+<!--
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <h1>AltCampus</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container hero">
+        <section class="col">
+          <h2>This is an article</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+            voluptate fugit quod error. Unde deleniti voluptas nam totam
+            voluptatem perferendis laudantium adipisci aliquid repudiandae,
+            iusto id architecto, culpa vitae aut. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Obcaecati, ipsam perspiciatis.
+            Provident nemo accusantium corporis unde nostrum nisi autem. Dicta
+            vitae accusamus non a adipisci aliquid incidunt enim fuga
+            reprehenderit. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Quis porro architecto est id sapiente tenetur iste atque ad
+            minima, dignissimos odit dolore, ex sit molestiae nihil qui
+            laboriosam amet nisi.
+          </p>
+        </section>
+        <section class="col col-1-1">
+          <img
+            src="https://cdn-media-1.freecodecamp.org/images/0*04uQld7C_oOhT6d0"
+            alt="Image"
+            class="image"
+          />
+        </section>
+      </div>
+    </main>
+    <main>
+      <div class="container gallery">
+        <section class="col-2">
+          <img
+            src="https://images.unsplash.com/photo-1507643179773-3e975d7ac515?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            alt=""
+          />
+          <img
+            src="https://art.ku.edu/sites/art.ku.edu/files/styles/slideshow-1180/public/images/slideshow/gallery-660x400.jpg?itok=PzMeixtD"
+            alt=""
+          />
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cNWZcoZIMt7kUGZz3bU0yy6vquhu5rcH0gaa5JtzjiGNH7qIts5nwHlanZbrkb_THe28Kc1UUxe7O_KjUNOtveako3yeJewQt3kVD-Dd05gMy3wSA3JeuX1_4TRGFzyv9BXvM7gcSA"
+            alt=""
+          />
+        </section>
+        <section class="col-2">
+          <img
+            src="https://images.unsplash.com/photo-1507643179773-3e975d7ac515?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            alt=""
+          />
+          <img
+            src="https://art.ku.edu/sites/art.ku.edu/files/styles/slideshow-1180/public/images/slideshow/gallery-660x400.jpg?itok=PzMeixtD"
+            alt=""
+          />
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cNWZcoZIMt7kUGZz3bU0yy6vquhu5rcH0gaa5JtzjiGNH7qIts5nwHlanZbrkb_THe28Kc1UUxe7O_KjUNOtveako3yeJewQt3kVD-Dd05gMy3wSA3JeuX1_4TRGFzyv9BXvM7gcSA"
+            alt=""
+          />
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <h3>&copy;AltCampus</h3>
+      <nav>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </nav>
+    </footer>
+  </body>
+</html>
