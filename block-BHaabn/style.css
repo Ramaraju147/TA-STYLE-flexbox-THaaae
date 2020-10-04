@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  color: #6c6c9b;
+}
+.shadow-box {
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #6c6c9b;
+}
+
+.gal {
+  border: 1px solid #6c6c9b;
+  padding: 10px;
+  color: white;
+  background-color: #6c6c9b;
+  border-radius: 10px;
+}
+
+.brand-logo img {
+  width: 150px;
+  height: 70px;
+}
+
+main h1 {
+  text-align: center;
+  color: #6c6c9b;
+  padding-top: 40px;
+  font-size: 44px;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.gallery {
+  padding: 30px;
+  flex-shrink: 1;
+}
+
+.gallery img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+nav i {
+  margin-left: 15px;
+}
