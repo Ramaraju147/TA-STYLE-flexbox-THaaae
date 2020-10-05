@@ -1,8 +1,110 @@
-<!-- 
+<!--
 - Create a page using flexbox according to the layout shown below.
 
 ![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
 
 - Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
+- Use semantic tags and keep the nesting and indentation proper.
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltCampus</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <a href="#">
+          <img
+            src="https://launchpad.altcampus.school/images/altcampus-logo.svg"
+            alt="AltCampus Logo"
+          />
+        </a>
+        <nav class="user">
+          <i class="fas fa-bell"></i>
+          <div class="user-profile">
+            <span>Sarah Jone</span>
+            <i class="fas fa-user"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="col-1">
+          <div class="container-1">
+            <div class="dashboard">
+              <div>
+                <div class="list">
+                  <i class="fas fa-clone"></i>
+                  <span><strong>Dashboard</strong></span>
+                </div>
+                <div class="list orange">
+                  <i class="fas fa-file-alt"></i>
+                  <span><strong>Articles</strong></span>
+                </div>
+                <div class="list">
+                  <i class="fas fa-chart-line"></i>
+                  <span><strong>Analytics</strong></span>
+                </div>
+                <div class="list">
+                  <i class="fas fa-inbox"></i>
+                  <span><strong>Inbox</strong></span>
+                </div>
+                <div class="list">
+                  <i class="fas fa-cogs"></i>
+                  <span><strong>Settings</strong></span>
+                </div>
+              </div>
+              <div class="list-1">
+                <i class="fas fa-sign-out-alt"></i>
+                <span><strong>Logout</strong></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="col-2">
+          <div class="container-2">
+            <img
+              src="https://thebytestory.com/wp-content/uploads/2018/11/1_1Mi6_veU5GgQxlvzSlncpQ.jpeg"
+              alt="Wall"
+            />
+            <h1>Why we are doing AltCampus?</h1>
+            <p>
+              Our course is packed with easy to understand videos, small,
+              incremental assignments to big projects to set you in the right
+              direction and keep you focused on what matters the most -building
+              stuff.
+            </p>
+            <p>
+              Our every working day, live mentor sessions will help you resolve
+              doubts, review code, and get one to one feedback to help you learn
+              better and faster. Get your technical questions answered quickly
+              by mentors via Slack.
+            </p>
+            <button>Read More</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container foot">
+        <small>&copy;AltCampus</small>
+        <nav class="foot-nav">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
