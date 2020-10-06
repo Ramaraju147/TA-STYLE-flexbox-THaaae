@@ -1,0 +1,201 @@
+<!--
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prism</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <a href="#" class="brand">
+          <span>Prism</span>
+        </a>
+        <nav class="brand-nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Generic</a>
+          <a href="#">Elements</a>
+        </nav>
+      </div>
+      <section class="hero">
+        <div class="container flex">
+          <section class="col-1 h-1">
+            <h1>
+              Welcome to Prism, a free responsive site template by TEMPLATED
+            </h1>
+          </section>
+          <section class="col-2 h-2">
+            <p>
+              Lorem ipsum nisl sed cursus magna et amet veroeros. Phasellus
+              aliquam et tempus lorem dolor feugiat adipiscing lorem.
+            </p>
+            <button>GET STARTED</button>
+          </section>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="flex container">
+        <section class="col-1 a-1">
+          <h2>Magna feugiat adipiscing</h2>
+          <p>
+            Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus
+            aliquam et tempus lorem feugiat adipiscing lorem. Morbi pharetra
+            vitae felis placerat pharetra. Nulla risus orci, dapibus id
+            malesuada et nec, malesuada quis orci. Pellentesque eget consequat.
+          </p>
+          <button>Learn More</button>
+        </section>
+        <section class="col-2 a-2">
+          <div class="c-1">
+            <i class="fas fa-check"></i>
+            <span>Ipsum nisl sed cursus magna</span>
+          </div>
+          <div class="c-1">
+            <i class="fas fa-check"></i>
+            <span>Amet veroeros sed aliquam consequat</span>
+          </div>
+          <div class="c-1">
+            <i class="fas fa-check"></i>
+            <span>Tempus lorem adipiscing et lorem</span>
+          </div>
+          <div class="c-1">
+            <i class="fas fa-check"></i>
+            <span>Morbi pharetra vitae felis placerat</span>
+          </div>
+          <div class="c-1">
+            <i class="fas fa-check"></i>
+            <span>Pharetra nulla risus orci dapibus</span>
+          </div>
+        </section>
+      </div>
+      <div class="wrapper">
+        <section class="container">
+          <article class="blog">
+            <div>
+              <img
+                src="https://templated.co/items/demos/prism/images/pic01.jpg"
+                alt="Buildings"
+              />
+            </div>
+            <div class="blog-text">
+              <h3>Ipsum pharetra tempus</h3>
+              <p>
+                Lorem ipsum nisl sed cursus magna et amet veroeros. Sed
+                phasellus malesuada quis orci. Pellentesque eget consequat.
+              </p>
+              <button>DETAILS</button>
+            </div>
+          </article>
+          <article class="blog">
+            <div>
+              <img
+                src="https://templated.co/items/demos/prism/images/pic02.jpg"
+                alt="Man Staring"
+              />
+            </div>
+            <div class="blog-text">
+              <h3>Magna consequat felis</h3>
+              <p>
+                Lorem ipsum nisl sed cursus magna et amet veroeros. Sed
+                phasellus malesuada quis orci. Pellentesque eget consequat.
+              </p>
+              <button>DETAILS</button>
+            </div>
+          </article>
+          <article class="blog">
+            <div>
+              <img
+                src="https://templated.co/items/demos/prism/images/pic03.jpg"
+                alt="Calender"
+              />
+            </div>
+            <div class="blog-text">
+              <h3>Vitae placerat adipiscing</h3>
+              <p>
+                Lorem ipsum nisl sed cursus magna et amet veroeros. Sed
+                phasellus malesuada quis orci. Pellentesque eget consequat.
+              </p>
+              <button>DETAILS</button>
+            </div>
+          </article>
+          <div class="btn">
+            <button>IPSUM MAGNA TEMPUS</button>
+          </div>
+        </section>
+      </div>
+      <div class="footer">
+        <section class="container flex">
+          <article class="col-1 form">
+            <h2>Orci malesuada</h2>
+            <p>
+              Morbi pharetra vitae felis placerat pharetra. Nulla risus orci,
+              dapibus id malesuada et nec, malesuada quis pellentesque eget.
+            </p>
+            <div>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="25"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </article>
+          <article class="col-2">
+            <div class="c-1">
+              <i class="fab fa-twitter"></i>
+              <span>twitter.com/untitled-tld</span>
+            </div>
+            <div class="c-1">
+              <i class="fab fa-facebook-f"></i>
+              <span>facebook.com/untitled-tld</span>
+            </div>
+            <div class="c-1">
+              <i class="fab fa-instagram"></i>
+              <span>instagram.com/untitled-tld</span>
+            </div>
+            <div class="c-1">
+              <i class="fas fa-envelope"></i>
+              <span>information@untitled.tld</span>
+            </div>
+            <div class="c-1">
+              <i class="fas fa-home"></i>
+              <span>1234 Somewhere Road Suite 9823</span>
+              <br />
+              <span class="span">Nashville, TN 00000-0000</span>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;Raju. All rights reserved. Images: Unsplash. Design: TEMPLATED.
+      </p>
+    </footer>
+  </body>
+</html>
