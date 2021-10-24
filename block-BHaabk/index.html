@@ -1,0 +1,60 @@
+<!--
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="flex">
+    <h1 class="brand">
+      Altcampus
+    </h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="flex container">
+      <article class="article">
+        <h2 class="article-heading">This is our Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi nulla asperiores dolores architecto vitae ea in dolorum, accusantium distinctio facilis cupiditate id? Enim ab obcaecati, magni nemo dolor est. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores debitis suscipit beatae natus voluptatibus, vel consequuntur eum cupiditate in ipsam nihil excepturi, soluta quia delectus officiis ipsa ducimus cum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel facere mollitia voluptatem obcaecati est illo in quo omnis cupiditate laboriosam, suscipit hic voluptatum doloribus doloremque enim fuga nobis amet consequuntur.</p>
+      </article>
+      <aside class="article-image">
+        <img src="https://www.apple.com/newsroom/images/values/corporate/standard/Apple_google-partner-on-covid-19-contact-tracing-technology_04102020_LP_hero.jpg.og.jpg" alt="google image">
+      </aside>
+    </section>
+    <section class="gallery container">
+      <div class="flex">
+        <img src="https://goodmorning-images.org/wp-content/uploads/2021/08/hd-morning-image.jpeg" alt="morning photo">
+        <img src="https://www.happybirthdaymsg.com/wp-content/uploads/2015/11/good-morning-image-48.jpg" alt="morning 2 photo">
+        <img src="https://www.wishesmsg.com/wp-content/uploads/Good-Morning-Msg.jpg" alt="morning 3 photo">
+      </div>
+      <div class="flex"> 
+        <img src="https://goodmorning-images.org/wp-content/uploads/2021/08/hd-morning-image.jpeg" alt="morning photo">
+        <img src="https://www.happybirthdaymsg.com/wp-content/uploads/2015/11/good-morning-image-48.jpg" alt="morning 2 photo">
+        <img src="https://www.wishesmsg.com/wp-content/uploads/Good-Morning-Msg.jpg" alt="morning 3 photo">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Altcampus</p>
+  </footer>
+</body>
+</html>
