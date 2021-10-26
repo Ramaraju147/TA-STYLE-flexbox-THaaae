@@ -1,0 +1,85 @@
+<!--
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="flex container">
+    <h1 class="brand">Altcampus</h1>
+    <div class="flex">
+      <i class="fas fa-bell notification"></i>
+      <div class="flex profile">
+        <p class="profile-name">Sara Jones</p>
+        <i class="fas fa-user-alt"></i>
+      </div>
+    </div>
+  </div>
+  </header>
+  <main class="container flex align-start margin">
+    <section>
+    <aside class="side-nav">
+      <div>
+      <div class="flex justify-left nav">
+        <i class="fas fa-tachometer-alt"></i>
+        <p>Dashboard</p>
+      </div>
+      <div class="flex justify-left nav active">
+        <i class="far fa-file"></i>
+        <p>Articles</p>
+      </div>
+      <div class="flex justify-left nav">
+        <i class="fas fa-chart-bar"></i>
+        <p>Analytics</p>
+      </div>
+      <div class="flex justify-left nav">
+        <i class="fas fa-inbox"></i>
+        <p>Inbox</p>
+      </div>
+      <div class="flex justify-left nav">
+        <i class="fas fa-cog"></i>
+        <p>Settings</p>
+      </div>
+     </div>
+      <div class="flex justify-left nav white-background">
+        <i class="fas fa-sign-out-alt"></i>
+        <p>Logout</p>
+      </div>
+    </aside>
+  </section>
+  <section class="article">
+    <article>
+    <img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270" alt="flower image">
+    <h2>Why we are doing Altcampus?</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque, fuga error voluptates asperiores quaerat nam cupiditate labore modi cum! Odit ratione accusantium omnis exercitationem ea ducimus saepe dolorum autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente harum voluptatem perferendis obcaecati veniam explicabo error esse similique, iusto dolor quibusdam quaerat illo praesentium ad a laborum quo iure inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil quidem placeat quam quia, excepturi temporibus suscipit! Quo molestias ex modi error minus ipsa optio voluptate, est, ipsam odit tempore.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque, fuga error voluptates asperiores quaerat nam cupiditate labore modi cum! Odit ratione accusantium omnis exercitationem ea ducimus saepe dolorum autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente harum voluptatem perferendis obcaecati veniam explicabo error esse similique, iusto dolor quibusdam quaerat illo praesentium ad a laborum quo iure inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil quidem placeat quam quia, excepturi temporibus suscipit! Quo molestias ex modi error minus ipsa optio voluptate, est, ipsam odit tempore.</p>
+    <button>Read More</button>
+  </article>
+  </section>
+  </main>
+  <footer>
+    <div class="container flex">
+    <p>&copy;Altcampus</p>
+    <div>
+      <i class="fab fa-twitter-square"></i>
+      <i class="fab fa-facebook-square"></i>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
